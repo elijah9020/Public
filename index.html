@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOCOE Analytics Dashboard</title>
+    
+    <style>
+        /* This removes default browser margins and scrollbars */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; 
+            background-color: #ffffff; 
+        }
+
+        /* This forces the iframe to fill 100% of the screen */
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Replace the src link with your actual Streamlit app URL -->
+    <!-- Make sure to keep the /?embed=true at the end -->
+    <iframe 
+        src="https://socoe-dashboard.streamlit.app/?embed=true" 
+        title="SOCOE Dashboard"
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
